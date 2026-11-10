@@ -1,0 +1,91 @@
+1
+00:00:00,150 --> 00:00:05,900
+Follow the literature review workflow.
+
+2
+00:00:06,150 --> 00:00:11,900
+Researchers define the scope and confirm conclusions.
+
+3
+00:00:12,150 --> 00:00:17,900
+Define the research questions and review scope.
+
+4
+00:00:18,150 --> 00:00:24,900
+Set inclusion and exclusion criteria.
+
+5
+00:00:25,150 --> 00:00:31,900
+Choose summary fields and contribution categories.
+
+6
+00:00:32,150 --> 00:00:38,900
+Decide which steps require human review.
+
+7
+00:00:39,150 --> 00:00:46,900
+Build search plans with concept groups and synonyms.
+
+8
+00:00:47,150 --> 00:00:55,900
+Inspect queries, year limits and database scope.
+
+9
+00:00:56,150 --> 00:01:05,900
+Inspect database retrieval and import options.
+
+10
+00:01:06,150 --> 00:01:11,900
+Review screening decisions and category labels.
+
+11
+00:01:12,150 --> 00:01:19,900
+Read each title, abstract and decision rationale.
+
+12
+00:01:20,150 --> 00:01:30,900
+Check the evidence before confirming a decision.
+
+13
+00:01:31,150 --> 00:01:38,900
+Review a study with an original PDF and saved summary.
+
+14
+00:01:39,150 --> 00:01:46,900
+Read the original beside its summary and labels.
+
+15
+00:01:47,150 --> 00:01:56,900
+Check contributions, validation and supporting evidence.
+
+16
+00:01:57,150 --> 00:02:05,900
+Read the summary alongside the corresponding source pages.
+
+17
+00:02:06,150 --> 00:02:15,900
+Human verification remains an explicit researcher action.
+
+18
+00:02:16,150 --> 00:02:23,900
+Choose contribution labels and search-plan scope.
+
+19
+00:02:24,150 --> 00:02:31,900
+Set grouping instructions for a research perspective.
+
+20
+00:02:32,150 --> 00:02:39,900
+Use source-linked summaries to support synthesis.
+
+21
+00:02:40,150 --> 00:02:45,900
+Inspect recorded task status and progress.
+
+22
+00:02:46,150 --> 00:02:51,900
+Keep task history for follow-up and review.
+
+23
+00:02:52,150 --> 00:03:01,900
+AI assists the workflow. Researchers own the conclusions.

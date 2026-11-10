@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+projects/
+imports/
+exports/
+*.log
+review-workbench-*-image.tar*

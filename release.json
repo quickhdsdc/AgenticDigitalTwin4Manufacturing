@@ -1,0 +1,9 @@
+{
+  "version": "2026.11.10",
+  "image": "review-workbench:2026.11.10",
+  "image_id": "sha256:0badc3e62bf376ba1249d55f5f201bc73acecfc22249d22e0723d7ba988e0eac",
+  "platform": "linux/amd64",
+  "archive": "review-workbench-2026.11.10-image.tar.gz",
+  "archive_sha256": "e4a25ef402267f2cc9a6a385f1ba074fa69a29ce5989404b281750b219fd3624",
+  "archive_bytes": 92270580
+}

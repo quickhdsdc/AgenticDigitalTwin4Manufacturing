@@ -1,0 +1,29 @@
+name: review-workbench
+services:
+  app:
+    image: review-workbench:2026.11.10
+    pull_policy: never
+    init: true
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${REVIEW_HOST_PORT:-8088}:8080"
+    environment:
+      REVIEW_GATEWAY_ENDPOINT: ${REVIEW_GATEWAY_ENDPOINT:-}
+      REVIEW_GATEWAY_API_KEY: ${REVIEW_GATEWAY_API_KEY:-}
+      REVIEW_GATEWAY_MODEL: ${REVIEW_GATEWAY_MODEL:-}
+      AZURE_OPENAI_ENDPOINT: ${AZURE_OPENAI_ENDPOINT:-}
+      AZURE_OPENAI_API_KEY: ${AZURE_OPENAI_API_KEY:-}
+      REVIEW_AZURE_SCREENING_DEPLOYMENT: ${REVIEW_AZURE_SCREENING_DEPLOYMENT:-}
+      REVIEW_AZURE_REASONING_DEPLOYMENT: ${REVIEW_AZURE_REASONING_DEPLOYMENT:-}
+      REVIEW_AZURE_API_VERSION: ${REVIEW_AZURE_API_VERSION:-}
+      SCOPUS_API_KEY: ${SCOPUS_API_KEY:-}
+      SCOPUS_INSTTOKEN: ${SCOPUS_INSTTOKEN:-}
+      REVIEW_ACCESS_TOKEN: ${REVIEW_ACCESS_TOKEN:-}
+      REVIEW_ZOTERO_URL: ${REVIEW_ZOTERO_URL:-http://host.docker.internal:23119}
+    volumes:
+      - review-data:/var/lib/review
+      - ./projects:/var/lib/review/projects
+      - ./imports:/imports:ro
+    stop_grace_period: 20s
+volumes:
+  review-data:
